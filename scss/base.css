@@ -1,0 +1,87 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  width: 1140px;
+  height: 750px;
+}
+
+.main-navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  margin-bottom: 75px;
+}
+
+.main-content {
+  width: 100%;
+  height: 350px;
+  background-color: #000000;
+  margin-bottom: 75px;
+}
+
+.main-position {
+  width: 100%;
+  height: 160px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-card {
+  height: 160px;
+  width: 265px;
+  background-color: #222222;
+  margin-right: 0;
+}
+
+.modal-send {
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4F6DF5;
+  color: #ffffff;
+}
+/*# sourceMappingURL=base.css.map */
