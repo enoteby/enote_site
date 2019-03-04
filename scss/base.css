@@ -18,12 +18,26 @@ body {
   font-weight: 300;
 }
 
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+}
+
 .content-text {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   color: #fff;
   font-weight: 300;
   width: 700px;
+}
+
+.base-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -67,7 +81,22 @@ body {
 .main-content {
   width: 100%;
   height: 350px;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
+}
+
+.main-content-btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-position {
@@ -113,7 +142,6 @@ body {
 .main-card-text {
   width: 100%;
   height: 60px;
-  background-color: #fff;
 }
 
 .modal-send {
@@ -130,17 +158,95 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2F80ED;
+  background-color: #4F6DF5;
   color: #ffffff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .modal-send:hover {
-  background-color: #1663c9;
+  background-color: #3455e7;
 }
 
 .modal-send:focus {
   outline: none;
+}
+
+.content-button {
+  width: 200px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4F6DF5;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.content-button:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3455e7;
+}
+
+.nav-contacts {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-contacts-items {
+  margin-top: 10px;
+  margin-right: 40px;
+  width: 500px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-form-send {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #4F6DF5;
+  color: #fff;
+}
+
+.modal-footer {
+  padding: 0;
+}
+
+.form-group {
+  margin-top: -10px;
 }
 /*# sourceMappingURL=base.css.map */

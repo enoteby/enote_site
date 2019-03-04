@@ -7,10 +7,24 @@ $basic-font: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
+.card-text {
+    font-family: $basic-font;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
 .content-text {
     font-family: $basic-font;
     font-size: 36px;
     color: #fff;
     font-weight: 300;
     width: 700px;
+}
+
+.base-text {
+    font-family: $basic-font;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300; 
 }
